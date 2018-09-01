@@ -149,10 +149,12 @@
 
 
 
+
   <script>
       console.log(returnCitySN);
       var dimensionValue = returnCitySN.cip+'.'+returnCitySN.cid;
       ga('set', 'dimension1', dimensionValue);
+      ga('send', 'pageview');
       console.log(ga)
   </script>
 </head>
