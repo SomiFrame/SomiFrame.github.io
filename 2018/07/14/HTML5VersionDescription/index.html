@@ -90,7 +90,7 @@
 <meta property="og:description" content="html5版本下面的代码为html5版本的代码1234567&amp;lt;!doctype html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;    &amp;lt;head&amp;gt;        &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;        &amp;lt;title&amp;gt;document&amp;lt;/title&amp;gt;    &amp;lt;/head&amp;gt;&amp;lt;/html&amp;gt;">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://somiframe.github.io/2018/07/14/HTML5VersionDescription/html-tag.png">
-<meta property="og:updated_time" content="2018-07-15T07:45:28.503Z">
+<meta property="og:updated_time" content="2019-03-20T02:35:09.351Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="html5">
 <meta name="twitter:description" content="html5版本下面的代码为html5版本的代码1234567&amp;lt;!doctype html&amp;gt;&amp;lt;html lang=&quot;en&quot;&amp;gt;    &amp;lt;head&amp;gt;        &amp;lt;meta charset=&quot;utf-8&quot;&amp;gt;        &amp;lt;title&amp;gt;document&amp;lt;/title&amp;gt;    &amp;lt;/head&amp;gt;&amp;lt;/html&amp;gt;">
@@ -208,6 +208,16 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -333,37 +343,122 @@
 
       
         <h1 id="html5版本"><a href="#html5版本" class="headerlink" title="html5版本"></a>html5版本</h1><p>下面的代码为html5版本的代码<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!doctype html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-<h1 id="html5语义化标签"><a href="#html5语义化标签" class="headerlink" title="html5语义化标签"></a>html5语义化标签</h1><h2 id="什么是语义化"><a href="#什么是语义化" class="headerlink" title="什么是语义化?"></a>什么是语义化?</h2><p>1.首先，语义化，顾名思义，就是你写的HTML结构，是用相对应的有一定语义的英文字母（标签）表示的，标记的，因为HTML本身就是标记语言。不仅对自己来说，容易阅读，书写。别人看你的代码和结构也容易理解，甚至对一些不是做网页开发的人来说，也容易阅读。那么，我们以后再开发的过程中，一定要注意了，尽量使用官方的有语义的标签，不要再使用一堆无意义的标签去堆你的结构。</p>
+<h1 id="html5语义化标签"><a href="#html5语义化标签" class="headerlink" title="html5语义化标签"></a>html5语义化标签</h1><h2 id="什么是语义化"><a href="#什么是语义化" class="headerlink" title="什么是语义化?"></a>什么是语义化?</h2><p>1.首先，语义化，顾名思义，就是你写的HTML结构，是用相对应的有一定语义的英文字母（标签）表示的，标记的，因为HTML本身就是标记语言。不仅对自己来说，容易阅读，书写。别人看你的代码和结构也容易理解，甚至对一些不是做网页开发的人来说，也容易阅读。那么，我们以后再开发的过程中，一定要注意了，尽量使用官方的有语义的标签，不要再使用一堆无意义的标签去堆你的结构。</p>
 <p>怎么知道，自己的页面结构是否语义化，那就要看你的HTML结构，在去掉CSS样式表之后，是否，依然能很好的呈现内容的结构，代码结构。也就是说，脱掉css的外衣，依然头是头，脚是脚。赤裸裸的完整的一篇文档。这也就是，语义化之后文档的效果。</p>
 <p>2.其实语义化，也无非就是自己在使用标签的时候多使用有英文语义的标签，比如h标签，在HTML中就是就是用来定义标题，还有p标签，英文是paragraph段落，table表格标签,等等。</p>
 <h2 id="语义化例子"><a href="#语义化例子" class="headerlink" title="语义化例子"></a>语义化例子</h2><p>请看下面的代码例子:<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--语义化--&gt;</span></span><br><span class="line"><span class="meta">&lt;!doctype html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">header</span>&gt;</span><span class="comment">&lt;!--语义化标签--&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">h1</span>&gt;</span>html5语义化标签<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">nav</span>&gt;</span><span class="comment">&lt;!--语义化标签--&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">h1</span>&gt;</span>导航<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">ul</span>&gt;</span><span class="comment">&lt;!--语义化标签--&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">li</span>&gt;</span>章节<span class="tag">&lt;/<span class="name">li</span>&gt;</span><span class="comment">&lt;!--语义化标签--&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">li</span>&gt;</span>标签<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">li</span>&gt;</span>热门<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">nav</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">header</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span>    </span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--非语义化--&gt;</span></span><br><span class="line"><span class="meta">&lt;!doctype html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"utf-8"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"header"</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">h1</span>&gt;</span>html5非语义化例子<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"nav"</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">h1</span>&gt;</span>导航<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">li</span>&gt;</span>章节<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">li</span>&gt;</span>标签<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">                    <span class="tag">&lt;<span class="name">li</span>&gt;</span>热门<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span>    </span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="语义化标签"><a href="#语义化标签" class="headerlink" title="语义化标签"></a>语义化标签</h2><p>下面我引用了一个语义化标签的表格(做得有点像元素周期表)</p>
+<h2 id="语义化标签"><a href="#语义化标签" class="headerlink" title="语义化标签"></a>语义化标签</h2><p>下面我引用了一个语义化标签的表格(做得有点像元素周期表)</p>
 <img src="/2018/07/14/HTML5VersionDescription/html-tag.png">
-<h1 id="html5的兼容性问题"><a href="#html5的兼容性问题" class="headerlink" title="html5的兼容性问题"></a>html5的兼容性问题</h1><p>使用html5的标签在一些旧版本浏览器它是不显示的,这时候我们该怎么兼容这些浏览器呢,下面我们来介绍一下解决方法:</p>
-<h2 id="兼容性解决方法1"><a href="#兼容性解决方法1" class="headerlink" title="兼容性解决方法1"></a>兼容性解决方法1</h2><p>以header标签为例:<br></p>
+<h1 id="html5的兼容性问题"><a href="#html5的兼容性问题" class="headerlink" title="html5的兼容性问题"></a>html5的兼容性问题</h1><p>使用html5的标签在一些旧版本浏览器它是不显示的,这时候我们该怎么兼容这些浏览器呢,下面我们来介绍一下解决方法:</p>
+<h2 id="兼容性解决方法1"><a href="#兼容性解决方法1" class="headerlink" title="兼容性解决方法1"></a>兼容性解决方法1</h2><p>以header标签为例:</p>
 <ol>
-<li>设置该标签的样式属性<code>display: block</code></li>
-<li>通过dom的方式添加这个标签 <code>document.createElement(&#39;header&#39;)</code>  </li>
+<li>设置该标签的样式属性<code>display: block</code></li>
+<li>通过dom的方式添加这个标签 <code>document.createElement(&#39;header&#39;)</code>  </li>
 <li>这样我们的header标签就可以在旧的浏览器里面显示了</li>
 </ol>
-<h2 id="兼容性解决方法2"><a href="#兼容性解决方法2" class="headerlink" title="兼容性解决方法2"></a>兼容性解决方法2</h2><p>这个方法其实就是对上面的方法的补全,因为上面的方法只对header有效,但是html5的标签不可能只有header,所以我们需要引用外部的js库来帮我们把其余的html5标签都做上以上的工作</p>
+<h2 id="兼容性解决方法2"><a href="#兼容性解决方法2" class="headerlink" title="兼容性解决方法2"></a>兼容性解决方法2</h2><p>这个方法其实就是对上面的方法的补全,因为上面的方法只对header有效,但是html5的标签不可能只有header,所以我们需要引用外部的js库来帮我们把其余的html5标签都做上以上的工作</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>上面的例子就是引用外部js库来完成对就浏览器不支持html5标签的兼容支持</p>
-<h1 id="audio-和-video"><a href="#audio-和-video" class="headerlink" title="audio 和 video"></a>audio 和 video</h1><p>audio和video是html5的新标签,audio是影评播放器video是视频播放器当然也是可以播放音频的.</p>
-<p>这两个标签的出现可以让我们不需要再依赖flash和silverlight这些插件就能原生的支持多媒体的播放.只需简单的添加audio标签或者video标签到我们的html代码当中就可以显示相应的播放器了.</p>
+<h1 id="audio-和-video"><a href="#audio-和-video" class="headerlink" title="audio 和 video"></a>audio 和 video</h1><p>audio和video是html5的新标签,audio是影评播放器video是视频播放器当然也是可以播放音频的.</p>
+<p>这两个标签的出现可以让我们不需要再依赖flash和silverlight这些插件就能原生的支持多媒体的播放.只需简单的添加audio标签或者video标签到我们的html代码当中就可以显示相应的播放器了.</p>
 <h2 id="audio使用"><a href="#audio使用" class="headerlink" title="audio使用"></a>audio使用</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">srouce</span> <span class="attr">src</span>=<span class="string">"horse.ogg"</span> <span class="attr">type</span>=<span class="string">"audio/ogg"</span>/&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">srouce</span> <span class="attr">src</span>=<span class="string">"horse.mp3"</span> <span class="attr">type</span>=<span class="string">"audio/mpeg"</span>/&gt;</span></span><br><span class="line">  Your browser does not support HTML5 audio.</span><br><span class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <h2 id="video使用"><a href="#video使用" class="headerlink" title="video使用"></a>video使用</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">"400"</span> <span class="attr">controls</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">"http://vjs.zencdn.net/v/oceans.mp4"</span> <span class="attr">type</span>=<span class="string">"video/mp4"</span>&gt;</span></span><br><span class="line">  Your browser does not support HTML5 video.</span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>使用这两个html5标签需要考虑兼容性问题,在各个浏览器的默认样式都可能不一样</p>
+<p>使用这两个html5标签需要考虑兼容性问题,在各个浏览器的默认样式都可能不一样</p>
 </blockquote>
-<p>&gt; 特别注意:有时候你们会发现video标签在chrome浏览器的自动播放是随机的但是通过往video标签添加<code>muted</code>静音属性之后,则在chrome浏览器能自动播放(这其实是有原因的:下面我来给出解析)</p>
+<blockquote>
+<p>特别注意:有时候你们会发现video标签在chrome浏览器的自动播放是随机的但是通过往video标签添加<code>muted</code>静音属性之后,则在chrome浏览器能自动播放(这其实是有原因的:下面我来给出解析)</p>
+</blockquote>
 <blockquote>
 <blockquote>
-<p>video在chrome的特殊表现原因</p>
+<p>video在chrome的特殊表现原因</p>
 </blockquote>
 </blockquote>
-<p>如果你刚开始使用chrome浏览器并且没有任何浏览记录,则chrome会在超过1000多个热门网站上自动播放带声音的视频,之后chrome则随着用户浏览的网页的习惯来学习和改变这个自动播放的网站列表,并且在你最经常访问的网站上应许带声视频自动播放,而相反则会阻止你不太常访问的网站的带声视频的自动播放.google产品经理解析过:当你调教chrome浏览器时,你会发现你时不时的需要点击播放按流才会播放视频.但是总体来说这个策略会阻止大约一半的没必要的自动播放情况.所以当你第一次访问新网站时你可以避免一些不必要的噪音打扰.<a href="https://www.theverge.com/2018/5/3/17251104/google-chrome-66-autoplay-sound-videos-mute" target="_blank" rel="noopener">引用于</a></p>
+<p>如果你刚开始使用chrome浏览器并且没有任何浏览记录,则chrome会在超过1000多个热门网站上自动播放带声音的视频,之后chrome则随着用户浏览的网页的习惯来学习和改变这个自动播放的网站列表,并且在你最经常访问的网站上应许带声视频自动播放,而相反则会阻止你不太常访问的网站的带声视频的自动播放.google产品经理解析过:当你调教chrome浏览器时,你会发现你时不时的需要点击播放按流才会播放视频.但是总体来说这个策略会阻止大约一半的没必要的自动播放情况.所以当你第一次访问新网站时你可以避免一些不必要的噪音打扰.<a href="https://www.theverge.com/2018/5/3/17251104/google-chrome-66-autoplay-sound-videos-mute" target="_blank" rel="noopener">引用于</a></p>
+<h1 id="html5-form-新特性"><a href="#html5-form-新特性" class="headerlink" title="html5 form 新特性"></a>html5 form 新特性</h1><p>这里有14个新的form属性我们将会在下面的段落介绍和接触:</p>
+<ul>
+<li>placeholder</li>
+<li>list</li>
+<li>formaction</li>
+<li>autofocus</li>
+<li>multiple</li>
+<li>formentype</li>
+<li>autocomplete</li>
+<li>novalidate</li>
+<li>formmethod</li>
+<li>required</li>
+<li>formnovalidate</li>
+<li>formtarget</li>
+<li>pattern</li>
+<li>form</li>
+</ul>
+<h2 id="placeholder"><a href="#placeholder" class="headerlink" title="placeholder"></a>placeholder</h2><p>第一个属性就是placeholder,中文直译就是占位符.当输入框没有输入任何字符串时,如果设置了placeholder的值的话,输入框会默认显示placeholder的字符,这个字符可以当做提示性的消息不能当做输入框的值.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="MBKBoN" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="input placeholder" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/MBKBoN/" target="_blank" rel="noopener">input placeholder</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="autofocus"><a href="#autofocus" class="headerlink" title="autofocus"></a>autofocus</h2><p><code>autofocus</code>能实现它字面上的意思:自动获取焦点,添加这个属性到input可以使input在页面渲染完成后自动把光标对焦到该input中.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="rrxrqe" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="input autofocus" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/rrxrqe/" target="_blank" rel="noopener">input autofocus</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="autocomplete"><a href="#autocomplete" class="headerlink" title="autocomplete"></a>autocomplete</h2><p><code>autocomplete</code>属性可以帮助用户根据先前的数据来完成表单输入框的输入.这个属性默认是自动填充内容的.<br>如果你想不要这个自动填充效果只需要把这个<code>autocomplete</code>设置为<code>off</code>就可以了.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="KBVBLK" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="input autocomplete" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/KBVBLK/" target="_blank" rel="noopener">input autocomplete</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="required"><a href="#required" class="headerlink" title="required"></a>required</h2><p><code>required</code>属性无需太多的介绍了,相信很多人在表单使用的时候都会用到这个.其实就是把带有<code>required</code>属性的input设置为必填项.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="WKrgve" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="input required" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/WKrgve/" target="_blank" rel="noopener">input required</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="pattern"><a href="#pattern" class="headerlink" title="pattern"></a>pattern</h2><p><code>pattern</code>属性可能是一个领开发人员非常兴奋的东西了.它可以通过使用正则表达式来校验输入框的值.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="MBKPxZ" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="input pattern" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/MBKPxZ/" target="_blank" rel="noopener">input pattern</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="list-和-datalist-元素"><a href="#list-和-datalist-元素" class="headerlink" title="list 和 datalist 元素"></a>list 和 datalist 元素</h2><p><code>list</code> 属性允许用户关联一个带制定项的可选列表(datalist).input输入框里面的<code>list</code>属性的值一定要跟<code>datalist</code>的id保持一致这样才能关联起来.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="qybQKr" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="input list attribute" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/qybQKr/" target="_blank" rel="noopener">input list attribute</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="multiple"><a href="#multiple" class="headerlink" title="multiple"></a>multiple</h2><p><code>multiple</code>属性可以让input接受多个值.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="WKrLbe" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="input multiple" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/WKrLbe/" target="_blank" rel="noopener">input multiple</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="novalidate-和-formnovalidate"><a href="#novalidate-和-formnovalidate" class="headerlink" title="novalidate 和 formnovalidate"></a>novalidate 和 formnovalidate</h2><p><code>novalidate</code>和<code>formnovalidate</code>属性可以让form表单在提交的时候不校验内容.<code>formvalidate</code>可以在type类型为<code>submit</code>和<code>image</code>的input中,而<code>novalidate</code>只能添加到<code>form</code>元素中.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="wxMRoV" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="form novalidate" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/wxMRoV/" target="_blank" rel="noopener">form novalidate</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="form"><a href="#form" class="headerlink" title="form"></a>form</h2><p><code>form</code>属性可以关联<code>input</code>,<code>select</code>或者<code>textarea</code>元素到<code>form</code>属性指定的form表单中即使是处于form外部也可以关联.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="oMbJeM" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="input form" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/oMbJeM/" target="_blank" rel="noopener">input form</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h2 id="formaction-formenctype-formmethod-和-formtarget"><a href="#formaction-formenctype-formmethod-和-formtarget" class="headerlink" title="formaction, formenctype, formmethod, 和 formtarget"></a>formaction, formenctype, formmethod, 和 formtarget</h2><p>这是个新的属性如果把前面的form都去掉之后再看看是不是有点眼熟?没错它们就是form元素的属性<code>action</code>,<code>enctype</code>,<code>method</code>,<code>target</code>.但是跟form表单的属性不同的是它们只用在type为<code>submit</code>和<code>image</code>的input中.<br>
+</p><p data-height="265" data-theme-id="0" data-slug-hash="djGwBL" data-default-tab="html,result" data-user="somiframe" data-embed-version="2" data-pen-title="formaction, formenctype, formmethod, 和 formtarget" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/djGwBL/" target="_blank" rel="noopener">formaction, formenctype, formmethod, 和 formtarget</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<p></p>
+<h1 id="html5-dom-selector"><a href="#html5-dom-selector" class="headerlink" title="html5 dom selector"></a>html5 dom selector</h1><p>html5新增一个新的选择器;</p>
+<p><code>document.querySelector(arg)</code>,<code>document.querySelectorAll(arg)</code>,<br><code>document.getElementsByClassName(arg)</code></p>
+<p>能返回被选择的dom元素数组.</p>
+<h1 id="html5-element-classList"><a href="#html5-element-classList" class="headerlink" title="html5 element.classList"></a>html5 element.classList</h1><p>html5的一个新特性就是在element里面的属性classList<br>它包含有六个方法:</p>
+<p> <code>classList.add()</code>,<code>classList.remove()</code>,<code>classList.item()</code>,<code>classList.toggle()</code>,<code>classList.contains()</code>,<code>classList.replace()</code>.</p>
+<h1 id="html5-element-dataset"><a href="#html5-element-dataset" class="headerlink" title="html5 element.dataset"></a>html5 element.dataset</h1><p><code>element.dataset</code>是html5对元素新增的一个自定义属性的特性:</p>
+<p>当需要往元素节点添加一些自定义数据的时候可以通过添加以<code>data-</code>为前缀的自定义数据,例如:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">data-name</span>=<span class="string">"somi"</span> <span class="attr">data-age</span>=<span class="string">"18"</span> <span class="attr">id</span>=<span class="string">"testdom"</span>&gt;</span>testdom<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">    console.log(document.getElementById('testdom').dataset.age) //18</span></span><br><span class="line"><span class="undefined">    console.log(document.getElementById('testdom').dataset.somi) //somi</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="html5-FileReader"><a href="#html5-FileReader" class="headerlink" title="html5 FileReader"></a>html5 FileReader</h1><p><code>FileReader</code>允许网页程序异步读取本地文件内容.</p>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="MByGeK" data-default-tab="js,result" data-user="somiframe" data-embed-version="2" data-pen-title="html5 filereader" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/MByGeK/" target="_blank" rel="noopener">html5 filereader</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<h1 id="html5-network-state"><a href="#html5-network-state" class="headerlink" title="html5 network state"></a>html5 network state</h1>
+<p data-height="265" data-theme-id="0" data-slug-hash="bjpjMx" data-default-tab="js,result" data-user="somiframe" data-embed-version="2" data-pen-title="html5 network state" class="codepen">See the Pen <a href="https://codepen.io/somiframe/pen/bjpjMx/" target="_blank" rel="noopener">html5 network state</a> by somi (<a href="https://codepen.io/somiframe" target="_blank" rel="noopener">@somiframe</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 
       
     </div>
@@ -405,6 +500,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/07/17/javascript-object-oriented/" rel="prev" title="javascript-面向对象">
+                javascript-面向对象 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -491,7 +590,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -513,7 +612,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -546,7 +645,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#html5版本"><span class="nav-number">1.</span> <span class="nav-text">html5版本</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5语义化标签"><span class="nav-number">2.</span> <span class="nav-text">html5语义化标签</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是语义化"><span class="nav-number">2.1.</span> <span class="nav-text">什么是语义化?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#语义化例子"><span class="nav-number">2.2.</span> <span class="nav-text">语义化例子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#语义化标签"><span class="nav-number">2.3.</span> <span class="nav-text">语义化标签</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5的兼容性问题"><span class="nav-number">3.</span> <span class="nav-text">html5的兼容性问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#兼容性解决方法1"><span class="nav-number">3.1.</span> <span class="nav-text">兼容性解决方法1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#兼容性解决方法2"><span class="nav-number">3.2.</span> <span class="nav-text">兼容性解决方法2</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#audio-和-video"><span class="nav-number">4.</span> <span class="nav-text">audio 和 video</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#audio使用"><span class="nav-number">4.1.</span> <span class="nav-text">audio使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#video使用"><span class="nav-number">4.2.</span> <span class="nav-text">video使用</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#html5版本"><span class="nav-number">1.</span> <span class="nav-text">html5版本</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5语义化标签"><span class="nav-number">2.</span> <span class="nav-text">html5语义化标签</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是语义化"><span class="nav-number">2.1.</span> <span class="nav-text">什么是语义化?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#语义化例子"><span class="nav-number">2.2.</span> <span class="nav-text">语义化例子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#语义化标签"><span class="nav-number">2.3.</span> <span class="nav-text">语义化标签</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5的兼容性问题"><span class="nav-number">3.</span> <span class="nav-text">html5的兼容性问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#兼容性解决方法1"><span class="nav-number">3.1.</span> <span class="nav-text">兼容性解决方法1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#兼容性解决方法2"><span class="nav-number">3.2.</span> <span class="nav-text">兼容性解决方法2</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#audio-和-video"><span class="nav-number">4.</span> <span class="nav-text">audio 和 video</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#audio使用"><span class="nav-number">4.1.</span> <span class="nav-text">audio使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#video使用"><span class="nav-number">4.2.</span> <span class="nav-text">video使用</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5-form-新特性"><span class="nav-number">5.</span> <span class="nav-text">html5 form 新特性</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#placeholder"><span class="nav-number">5.1.</span> <span class="nav-text">placeholder</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#autofocus"><span class="nav-number">5.2.</span> <span class="nav-text">autofocus</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#autocomplete"><span class="nav-number">5.3.</span> <span class="nav-text">autocomplete</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#required"><span class="nav-number">5.4.</span> <span class="nav-text">required</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pattern"><span class="nav-number">5.5.</span> <span class="nav-text">pattern</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#list-和-datalist-元素"><span class="nav-number">5.6.</span> <span class="nav-text">list 和 datalist 元素</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#multiple"><span class="nav-number">5.7.</span> <span class="nav-text">multiple</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#novalidate-和-formnovalidate"><span class="nav-number">5.8.</span> <span class="nav-text">novalidate 和 formnovalidate</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#form"><span class="nav-number">5.9.</span> <span class="nav-text">form</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#formaction-formenctype-formmethod-和-formtarget"><span class="nav-number">5.10.</span> <span class="nav-text">formaction, formenctype, formmethod, 和 formtarget</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5-dom-selector"><span class="nav-number">6.</span> <span class="nav-text">html5 dom selector</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5-element-classList"><span class="nav-number">7.</span> <span class="nav-text">html5 element.classList</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5-element-dataset"><span class="nav-number">8.</span> <span class="nav-text">html5 element.dataset</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5-FileReader"><span class="nav-number">9.</span> <span class="nav-text">html5 FileReader</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#html5-network-state"><span class="nav-number">10.</span> <span class="nav-text">html5 network state</span></a></li></ol></div>
             
 
           </div>
@@ -566,7 +665,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-somi"></i>
   </span>
